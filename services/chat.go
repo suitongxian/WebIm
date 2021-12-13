@@ -1,7 +1,7 @@
 package services
 
 import (
-	"WebIM/models"
+	"WebIm/models"
 	"encoding/json"
 	"fmt"
 	"github.com/gorilla/websocket"

@@ -1,7 +1,7 @@
 package services
 
 import (
-	"WebIM/models"
+	"WebIm/models"
 	"fmt"
 	"github.com/gorilla/websocket"
 	"time"

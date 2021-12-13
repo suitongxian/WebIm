@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"WebIM/services"
-	"github.com/astaxie/beego/core/logs"
+	"WebIm/services"
+	"github.com/astaxie/beego/logs"
 )
 
 // WebSocketController handles WebSocket requests.

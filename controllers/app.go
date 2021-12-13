@@ -17,8 +17,8 @@ package controllers
 import (
 	"strings"
 
-	"github.com/astaxie/beego/core/logs"
-	beego "github.com/astaxie/beego/server/web"
+	"github.com/astaxie/beego"
+	"github.com/astaxie/beego/logs"
 	"github.com/beego/i18n"
 )
 
@@ -26,8 +26,7 @@ var langTypes []string // Languages that are supported.
 
 func init() {
 	// Initialize language type list.
-	langTypeStr, _ := beego.AppConfig.String("lang_types")
-	langTypes = strings.Split(langTypeStr, "|")
+	langTypes = strings.Split(beego.AppConfig.String("lang_types"), "|")
 
 	// Load locale files according to language types.
 	for _, lang := range langTypes {

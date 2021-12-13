@@ -16,10 +16,10 @@
 package main
 
 import (
-	_ "WebIM/routers"
-	_ "WebIM/services"
-	"github.com/astaxie/beego/core/logs"
-	beego "github.com/astaxie/beego/server/web"
+	_ "WebIm/routers"
+	_ "WebIm/services"
+	"github.com/astaxie/beego"
+	"github.com/astaxie/beego/logs"
 	"github.com/beego/i18n"
 )
 

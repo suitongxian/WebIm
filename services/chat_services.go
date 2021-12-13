@@ -1,6 +1,8 @@
 package services
 
-import "sync"
+import (
+	"sync"
+)
 
 var ChatServicesInstance *ChatServices
 

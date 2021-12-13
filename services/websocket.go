@@ -3,7 +3,7 @@ package services
 import (
 	"net/http"
 
-	"github.com/astaxie/beego/core/logs"
+	"github.com/astaxie/beego/logs"
 	"github.com/gorilla/websocket"
 )
 
